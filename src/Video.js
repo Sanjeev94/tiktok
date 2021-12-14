@@ -1,5 +1,6 @@
 import React, {useRef, useState} from 'react'
-import "./Video.css"
+import "./Video.css";
+import VideoFooter from "./VideoFooter" 
 
 function Video() {
     const [playing, setPlaying] = useState(false);
@@ -24,6 +25,7 @@ function Video() {
             ref={videoRef}
             src="https://media.chingari.io/uploads/915e1320-3f90-4057-885b-3825954d8d4d-1638182113726/webpath_915e1320-3f90-4057-885b-3825954d8d4d-1638182113726.mp4">
             </video>
+            <VideoFooter />
             
         </div>
     )
