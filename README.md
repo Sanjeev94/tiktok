@@ -4,7 +4,7 @@ Tech we are going to use for Frontend
   Firebase Hosting
   Material UI
   FlexBox
-  3rd party Ticker
+  3rd party Ticker npm i react-ticker
   Scroll snap
 
 Tech used for Backend
