@@ -1,3 +1,17 @@
+Build a TIK TOK clone with the MERN STACK
+Tech we are going to use for Frontend
+  React 
+  Firebase Hosting
+  Material UI
+  FlexBox
+  3rd party Ticker
+  Scroll snap
+
+Tech used for Backend
+  Node.js
+  Express.js Server
+  Mongodb --> Mongoose
+  Hosting on Heroku
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
