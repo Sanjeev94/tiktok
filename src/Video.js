@@ -3,7 +3,7 @@ import "./Video.css";
 import VideoFooter from "./VideoFooter";
 import VideoSidebar from './VideoSidebar'
 
-function Video() {
+function Video({ url, channel, description, song, likes, messages, shares }) {
     const [playing, setPlaying] = useState(false);
     const videoRef = useRef(null);
     const handleVideoPress = () => {
@@ -24,10 +24,14 @@ function Video() {
             className="video__player"
             loop
             ref={videoRef}
-            src="https://media.chingari.io/uploads/915e1320-3f90-4057-885b-3825954d8d4d-1638182113726/webpath_915e1320-3f90-4057-885b-3825954d8d4d-1638182113726.mp4">
+            src={url}>
             </video>
-            <VideoFooter />
-            <VideoSidebar />
+            <VideoFooter 
+            channel={channel}
+            description={description}
+            song={song} 
+            />
+            <VideoSidebar likes={likes} messages={messages} shares={shares} />
             
         </div>
     )
