@@ -1,4 +1,6 @@
 Build a TIK TOK clone with the MERN STACK
+Deployed an app using firebase hosting which communicates with a NodeJS express backend which is connected to Mongodband hosting it on Heroku
+-> https://tiktok-mern--backend0.herokuapp.com/
 Tech we are going to use for Frontend
   React 
   Firebase Hosting
